@@ -10,3 +10,11 @@ div{
     left: 50%;
     transform: translate(-50%,-50%);
 }
+
+.mail-logo{
+    height: 50px;
+}
+
+.wa-logo{
+    height: 40px;
+}
