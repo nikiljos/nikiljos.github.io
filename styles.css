@@ -18,3 +18,11 @@ div{
 .wa-logo{
     height: 40px;
 }
+
+::-moz-selection { /* Code for Firefox */
+    background: #90cf8c8c;
+}
+
+::selection {
+background: #90cf8c8c;
+}
