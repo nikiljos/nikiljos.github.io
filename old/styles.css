@@ -1,0 +1,28 @@
+body{
+    margin: 2%;
+    text-align: center;
+}
+
+div{
+    position: absolute;
+    margin-top: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.mail-logo{
+    height: 50px;
+}
+
+.wa-logo{
+    height: 40px;
+}
+
+::-moz-selection { /* Code for Firefox */
+    background: #90cf8c8c;
+}
+
+::selection {
+background: #90cf8c8c;
+}

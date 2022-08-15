@@ -1,28 +1,64 @@
-body{
-    margin: 2%;
+.hi{
+    text-align: center;
+    padding-top: 5rem;
+}
+
+.space{
+    padding: 1rem;
+}
+
+.profile{
     text-align: center;
 }
 
-div{
-    position: absolute;
-    margin-top: auto;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+.box{
+    margin: 1rem;
 }
 
-.mail-logo{
-    height: 50px;
+.card-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+@media only screen and (min-width: 768px) {
+    .card-box{
+        flex-direction: row;
+    }
 }
 
-.wa-logo{
-    height: 40px;
+.icon{
+    margin: 1rem;
 }
 
-::-moz-selection { /* Code for Firefox */
-    background: #90cf8c8c;
+.footer{
+    margin-top: 10rem;
 }
 
-::selection {
-background: #90cf8c8c;
+.form-intro{
+    padding: 2rem;
+}
+
+.form-body{
+    padding: 2rem;
+}
+
+.subtitle{
+    font-weight: bold;
+}
+
+.box-col{
+    text-align: center;
+}
+
+.count-card{
+    height: 122px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.count{
+    font-size: 1.5rem;
 }
